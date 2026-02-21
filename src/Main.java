@@ -7,4 +7,7 @@ public class Main{
         double width = 3.0;
 System.out.println("Area of the rectangle: " + calculateArea(length, width));
     }
+    public static double calculatePerimeter(double length, double width){
+        return 2 * (length + width);
+    }
 }
